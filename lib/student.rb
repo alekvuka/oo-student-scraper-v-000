@@ -45,7 +45,7 @@ class Student
     @profile_quote = attributes_hash[profile_quote]
     @bio = attributes_hash[bio]
     binding.pry
->>>>>>> 2a083d7146fe514d008db0a6b241adba72dae0b5
+
 
 
 
