@@ -45,6 +45,8 @@ class Scraper
 
     links = doc.css('.social-icon-container').css("a").first['href']
 
+    binding.pry
+
     doc.css('.social-icon-container').css("a").each do |link|
       if link['href'].include?("twitter")
         return_hash[:twitter] = link['href']

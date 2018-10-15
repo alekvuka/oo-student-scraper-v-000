@@ -29,6 +29,7 @@ class Student
 
   def add_student_attributes(attributes_hash)
     #binding.pry
+<<<<<<< HEAD
     @twitter = attributes_hash[:twitter]
     @linkedin = attributes_hash[:linkedin]
     @github = attributes_hash[:github]
@@ -36,6 +37,15 @@ class Student
     @profile_quote = attributes_hash[:profile_quote]
     @bio = attributes_hash[:bio]
     #binding.pry
+=======
+    @twitter = attributes_hash[twitter]
+    @linkedin = attributes_hash[linkedin]
+    @github = attributes_hash[github]
+    @blog = attributes_hash[blog]
+    @profile_quote = attributes_hash[profile_quote]
+    @bio = attributes_hash[bio]
+    binding.pry
+>>>>>>> 2a083d7146fe514d008db0a6b241adba72dae0b5
 
 
 
